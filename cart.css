@@ -1,0 +1,41 @@
+
+.container{
+    display:flex;
+    width: auto;
+    justify-content: center;
+    align-items: center
+    hight auto;
+  }
+  .left{
+    display:inline;
+    font-style:Courier;
+    width: 50%;
+    position: absolute;
+    margin-top:15%;
+    margin-left :0%;
+  }
+  .left_body{
+    display: flex ;
+    gap:20px;
+    
+  }
+  .right{
+    display: block;
+    font-style:Courier;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    margin-left :90%;
+    top:50%;
+    transform: translate(-50%, -50%);
+  }
+  .right_body{
+    display: flex ;
+    gap:50px;
+    margin-left :40%;}
+  
+  .right_sum{
+    display: flex ;
+    gap: 60px;
+    margin-left :40%;
+  }
